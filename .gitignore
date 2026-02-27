@@ -1,0 +1,8 @@
+# Abaikan folder gambar produk karena isinya akan bertambah di hosting
+img/*
+
+# Kecuali file placeholder (opsional, jika ada)
+!img/.gitkeep
+
+# Abaikan file konfigurasi database lokal (biar gak bentrok sama hosting)
+koneksi.php
